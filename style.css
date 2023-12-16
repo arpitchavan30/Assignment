@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: #FFF;
+    margin: 30px;
+}
+#blog_container{
+    border: 2px solid #000;
+    box-sizing: border-box;
+    padding: 0px 20px 20px;
+}
+
+#blog_container>h1 {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.2em; 
+    text-decoration-skip-ink: none;
+}
+
+#blog_container>p {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align:justify;
+}
+
+#blog_container>p>b {
+    font-style: italic;
+}
+#read_more{
+    text-decoration-thickness: 2px;
+}
+
+
+#image_container>h2 {
+    width: 962px;
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.2em; 
+    text-decoration-skip-ink: none;
+}
+
+#image_container>img {
+    width: 1051px;
+    height: 762px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#more_images_text {
+    width: 245px;
+    height: 48px;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em; 
+    text-decoration-skip-ink: none;
+}
+
+#trivia_container{ 
+    box-sizing: border-box;
+} 
+
+#trivia_container>h2 {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.2em; 
+    text-decoration-skip-ink: none;
+}
+
+#trivia_container>ol>li {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
